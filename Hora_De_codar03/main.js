@@ -181,7 +181,7 @@ let fora = 0;
 let inTT = 1;
 while (inTT <= 10) {
 
-  let valor = parseInt(prompt("Digite o valor " + i + ": "));
+  let valor = parseInt(prompt("Digite o valor " + inTT + ": "));
 
   if (valor >= 24 && valor <= 42) {
     dentro++;
